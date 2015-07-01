@@ -1,0 +1,32 @@
+.spoiler_button{
+	width:86%;
+	margin-left: 5%;
+	background-color: #f5f5f5;
+	margin-bottom: 5px;
+	padding:2%;
+	-transition:background-color 200ms, color 200ms;
+	-webkit-transition:background-color 200ms, color 200ms;
+	-moz-transition:background-color 200ms, color 200ms;
+	-o-transition:background-color 200ms, color 200ms;
+	-ms-transition:background-color 200ms, color 200ms;
+}
+
+.spoiler_button:hover{
+	background-color: #04BCEA;
+	color: #fff;
+}
+
+.spoiler{
+	width:75%;
+	margin-right: 5%;
+	margin-left: 20%;
+	padding-bottom: 20px;
+}
+
+.spoiler li{
+	list-style: none;
+}
+
+.spoiler li a{
+	color: #2b2b2b;
+}

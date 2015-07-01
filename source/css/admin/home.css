@@ -1,0 +1,26 @@
+@font-face{
+	font-family: segoe;
+	src: url('../../font/SEGOEUI.ttf');
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	border-top:solid 8px #04bcea;
+	font-family: segoe;
+}
+
+#content{
+	width:75%;
+	margin-left: 21%;
+	float:left;
+}
+
+#content_header{
+	width: 100%;
+	font-size: 36px;
+	color: #373737;
+	padding-top:10px;
+	padding-left: 10px;
+	border-bottom: dashed 1px #999;
+}

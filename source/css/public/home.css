@@ -1,0 +1,413 @@
+@font-face{
+	font-family: segoe;
+	src: url('../../font/SEGOEUI.ttf');
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	border-top:solid 8px #04bcea;
+	font-family: Elephent;
+}
+
+.button {
+	font-size: 11px;
+  	font-weight: bold;
+  	text-decoration: none;
+  	text-align: center;
+  	height: 27px;
+  	padding: 0 8px;
+  	line-height: 27px;
+  	min-width: 54px;
+  	display: inline-block;
+  	background-color: #4D90FE;
+  	background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+  	border-top-color: rgb(48, 121, 237);
+  	border-top-style: solid;
+  	border-top-width: 1px;
+  	color: white;
+  	border-radius: 2px;
+  	cursor: default;
+}
+
+.button .a {
+	color: white;
+}
+
+#header{
+	width:80%;
+	float:left;
+	margin-left: 10%;
+	height:120px;
+	background-color: #fff;
+}
+
+#logo{float: left;}
+#logo img{height:80px;margin-top: 20px;}
+
+#judul{float:left;font-size: 30px;line-height: 70px;padding-left: 30px;}
+
+#navigasi{
+	width:80%;
+	height:50px;
+	background-color: #272727;
+	margin-left: 10%;
+	float: left;
+}
+
+#navigasi li{
+	list-style: none;
+	color: #fff;
+	height:50px;
+	float:left;
+	background-color: #272727;
+}
+
+#navigasi a{
+	color: #fff;
+	text-decoration: none;
+	margin-left:20px;
+	margin-right: 20px;
+	line-height: 45px;
+	height: 50px;
+}
+
+#navigasi li:hover{
+	background-image: url('../../images/menu.jpg');
+}
+
+#navigasi ul{
+	margin: 0px;
+	float: left;
+	padding: 0px;
+	background-color: #fff;
+	border:solid 1px #ccc;
+	border-bottom: none;
+	position: absolute;
+	box-shadow: 0px 8px 7px -6px #888;
+	z-index: 100;
+}
+
+#navigasi ul li{
+	background-color: #fff;
+	width:100%;
+	border-bottom: solid 1px #ccc;
+	padding-right: 0px;
+	float: left;
+	clear: both;
+}
+
+#navigasi ul li:hover{
+	background-color: #efefef;
+}
+
+#navigasi ul li a{
+	color: #272727;
+}
+
+#navigasi ul li ul{
+	float: right;
+	margin-top: -50px;
+	left:100%;
+	min-width:200px;
+	position: absolute;
+	z-index: 100;
+	right: 0px;
+}
+
+#navigasi li#selected{
+	background-image: url('../../images/menu.jpg');
+}
+
+#content{
+	width:80%;
+	float:left;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+}
+
+#left{
+	width:70%;
+	float:left;
+	min-height: 400px;
+}
+
+#right{
+	width:30%;
+	float:left;
+	min-height: 400px;
+}
+
+.right_box{
+	min-height: 100px;
+	padding-bottom: 20px;
+}
+
+.right_box_header{
+	border-bottom: dashed 1px #999;
+	height: 40px;
+	background-color: #f5f5f5;
+	line-height: 40px;
+	font-size: 20px;
+	padding-left:15px; 
+	color: #2b2b2b;
+}
+
+.right_box_content{
+	padding-top: 10px;
+}
+
+.left_box{
+	width:100%;
+	float: left;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	border-right:dashed 1px #999;
+	border-bottom: dashed 1px #999;
+	padding-top:10px;
+	min-height: 30px;
+}
+
+.left_box .left_kiri{
+	width:50%;
+	min-height: 50px;
+	float: left;
+}
+
+.left_box .left_kiri .thumb{
+	width:96%;
+	background-color: #f5f5f5;
+	padding: 2%;
+}
+
+.left_box .left_kiri .thumb img{
+	width:100%;
+	height: 200px;
+}
+
+.left_box .left_kiri .text{padding: 2%;padding-top: 0.5%;}
+.left_box .left_kiri .text .judul a{
+	font-size: 18px;
+	color: #2b2b2b;
+	text-decoration: none;
+}
+
+.left_box .left_kiri .text .judul a:hover{text-decoration: underline;}
+
+.left_box .left_kiri .text .waktu{
+	font-size: 13px;
+	font-style: italic;
+	color: #888;
+	margin-top: 10px;
+}
+
+.left_box .left_kanan{
+	width: 50%;	
+	float: right;
+}
+
+.right_box_content .post, .left_kanan .post{
+	width:92%;
+	margin-left: 4%;
+	margin-right: 4%;
+	clear: both;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.right_box_content .thumb, .left_kanan .thumb{
+	width:80px;
+	background-color: #f5f5f5;
+	padding: 5px;
+	float:left;
+	margin-right: 10px;
+}
+
+.right_box_content .thumb img, .left_kanan .thumb img{
+	width: 80px;
+	float:left;
+}
+
+.right_box_content .text .judul, .left_kanan .text .judul{font-size: 13px;}
+.right_box_content .text .judul a, .left_kanan .text .judul a{
+	color: #2b2b2b;
+	text-decoration: none;
+}
+
+.right_box_content .text .judul a:hover, .left_kanan .text .judul a:hover{
+	text-decoration: underline;
+}
+
+.right_box_content .text .waktu, .left_kanan .text .waktu{
+	font-size: 12px;
+	margin-top: 10px;
+	color: #888;
+	font-style: italic;
+}
+
+
+
+#copyright{
+	width:80%;
+	float:left;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #222222;
+	color: white;
+	min-height: 50px;
+}
+
+.heading{
+	text-rendering: optimizeLegibility;
+    line-height: 1;
+    margin-top: 0;
+    font-size: 2rem;
+    line-height: 1.2em;
+    letter-spacing: -2px;
+    text-indent: -3px;
+    text-align: center;
+}
+
+
+.kiri_box{
+	width:100%;
+	float: left;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	border-right:dashed 1px #999;
+	border-bottom: dashed 1px #999;
+	padding-top:10px;
+	min-height: 30px;
+}
+
+.kiri_box .kiri_kiri{
+	width:50%;
+	min-height: 50px;
+	float: left;
+}
+
+.kiri_box .kiri_kiri .thumb{
+	width:96%;
+	background-color: #f5f5f5;
+	padding: 2%;
+}
+
+.kiri_box .kiri_kiri .thumb img{
+	width:100%;
+	height: 200px;
+}
+
+.kiri_box .kiri_kiri .text{padding: 2%;padding-top: 0.5%;}
+.kiri_box .kiri_kiri .text .judul a{
+	font-size: 18px;
+	color: #2b2b2b;
+	text-decoration: none;
+}
+
+.kiri_box .kiri_kiri .text .judul a:hover{text-decoration: underline;}
+
+.kiri_box .kiri_kiri .text .waktu{
+	font-size: 13px;
+	font-style: italic;
+	color: #888;
+	margin-top: 10px;
+}
+
+.kiri_box .kiri_kanan{
+	width: 50%;	
+	float: right;
+}
+.right_box_content .post, .kiri_kanan .post{
+	width:92%;
+	margin-left: 4%;
+	margin-right: 4%;
+	clear: both;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.right_box_content .thumb, .kiri_kanan .thumb{
+	width:80px;
+	background-color: #f5f5f5;
+	padding: 5px;
+	float:left;
+	margin-right: 10px;
+}
+
+.right_box_content .thumb img, .kiri_kanan .thumb img{
+	width: 80px;
+	float:left;
+}
+
+.right_box_content .text .judul, .kiri_kanan .text .judul{font-size: 13px;}
+.right_box_content .text .judul a, .kiri_kanan .text .judul a{
+	color: #2b2b2b;
+	text-decoration: none;
+}
+
+.right_box_content .text .judul a:hover, .kiri_kanan .text .judul a:hover{
+	text-decoration: underline;
+}
+
+.right_box_content .text .waktu, .kiri_kanan .text .waktu{
+	font-size: 12px;
+	margin-top: 10px;
+	color: #888;
+	font-style: italic;
+}
+
+	#widget{color: #FFFFFF;background: rgb(60,179,230);
+		font-family: helvetica;
+		width: 132px;
+		height: 135px;	
+		border-radius: 10px;
+	}
+	#big_day{
+		display: block;
+		text-align: center;
+		font-size: 5em;
+	}
+	
+	.block{
+		display: block;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+.footer{
+	width:100%;
+	float:left;
+	border-top:solid 15px #04bcea;
+	margin-top: 10px;
+	background-color: #3A3A3A;
+}
+
+.footer_content{
+	width:80%;
+	float:left;
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 200px;
+	color: white;
+}
+
+.footer_kiri{
+	width:30%;
+	float: left;
+}
+
+.footer_tengah{
+	float: left;
+	width: 34%;
+}
+
+.footer_right{
+	float: right;
+	width: 35%
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}

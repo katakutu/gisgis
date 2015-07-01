@@ -1,0 +1,48 @@
+form{
+	padding: 20px;
+}
+
+label{
+	font-size: 18px;
+	margin-top: 10px;
+	clear: both;
+	display: block;
+}
+
+select{
+	height:30px;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+
+input[type='text'], input[type='password']{
+	height:30px;
+	font-size: 18px;
+	padding-left: 10px;
+	width: 70%;
+}
+
+input.gps_input{
+	width:20%;
+}
+
+textarea{
+	width: 70%;
+	min-height: 100px;
+	resize:none;
+}
+
+input[type='submit']{
+	height: 35px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+span{
+	height:30px;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 10px;	
+}

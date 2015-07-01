@@ -1,0 +1,159 @@
+#kiri{
+	width:16%;
+	float:left;
+	margin-top: 20px;
+}
+
+.kiri_item{
+	background-color: #ccc;
+	height: 35px;
+	float: left;
+	clear: both;
+	width: 91%;
+	padding-left:2%;
+	padding-right:2%;
+	text-decoration: none;
+	margin-bottom: 5px;
+	line-height: 35px;
+	text-align: right;
+	color: #2b2b2b;
+	-transition:background-color 200ms, border 200ms, color 200ms, margin 200ms, width 200ms;
+	-moz-transition:background-color 200ms, border 200ms, color 200ms, margin 200ms, width 200ms;
+	-webkit-transition:background-color 200ms, border 200ms, color 200ms, margin 200ms, width 200ms;
+	-o-transition:background-color 200ms, border 200ms, color 200ms, margin 200ms, width 200ms;
+	-ms-transition:background-color 200ms, border 200ms, color 200ms, margin 200ms, width 200ms;
+}
+
+.kiri_item#selected, .kiri_item:hover{
+	background-color: #f5f5f5;
+	width: 96%;
+}
+
+#kanan{
+	background-color: #f5f5f5;
+	width:84%;
+	min-height: 400px;
+	float: right;
+	margin-top: 20px;
+}
+
+#tambah{
+	color: #2b2b2b;
+	margin: 20px;
+	display: block;
+	float: left;
+}
+
+table{
+	width:98%;
+	margin-left: 1%;
+}
+
+.table_header{
+	background-color: #04BCEA;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+tr:nth-child(odd) td{
+	background-color: #eee;
+}
+
+tr:nth-child(even) td{
+	background-color: #fff;
+}
+
+tr:nth-child(1) td{
+	background-color: #04BCEA;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+td{
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 13px;
+}
+
+#foto_container{
+	padding:20px;
+}
+
+.foto_item{
+	width:110px;
+	min-height:110px;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #ccc;
+	padding-bottom: 5px;
+}
+
+.foto_item img{
+	width:100px;
+	height:100px;
+	margin:5px 5px 0px 5px;
+}
+
+.delete_foto{
+	font-size: 12px;
+	margin-left:5px;
+}
+
+#tambah_foto{
+	width:110px;
+	min-height:20px;
+	text-align: center;	
+	background-color: #04BCEA;
+	padding-top: 7px;
+	padding-bottom: 10px;
+	color: #fff;
+	float:left;
+	cursor: pointer;
+	-transition:background-color 200ms, border 200ms, color 200ms, margin 200ms, width 200ms;
+	-moz-transition:background-color 200ms, border 200ms, color 200ms, margin 200ms, width 200ms;
+	-webkit-transition:background-color 200ms, border 200ms, color 200ms, margin 200ms, width 200ms;
+	-o-transition:background-color 200ms, border 200ms, color 200ms, margin 200ms, width 200ms;
+	-ms-transition:background-color 200ms, border 200ms, color 200ms, margin 200ms, width 200ms;
+}
+
+#tambah_foto:hover{
+	background-color: #4fdeff;
+}
+
+#form_upload_foto{
+	display: none;
+}
+
+#blackscreen{
+	background-color: #000;
+	opacity: 0.4;
+	width:100%;
+	height:100%;
+	position: fixed;
+	top:0px;
+	left:0px;
+}
+
+#upload_loading{
+	width:18%;
+	position: fixed;
+	top:20%;
+	left: 41%;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color: #fff;
+	border:solid 1px #666;
+	box-shadow: 0px 12px 10px -9px #222;
+	text-align: center;
+}
+
+#upload_loading img{
+	margin-left: auto;
+	margin-right: auto;
+}
